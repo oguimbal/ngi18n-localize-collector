@@ -12,6 +12,7 @@
   },
   "author": "Olivier Guimbal",
   "license": "ISC",
+  "repository": "https://github.com/oguimbal/ngi18n-localize-collector",
   "devDependencies": {
     "@angular/compiler": "^9.0.4",
     "@types/node": "^13.7.7",
