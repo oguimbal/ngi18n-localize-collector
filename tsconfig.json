@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "target": "es2018",
+      "module": "commonjs",
+      "outDir": "bin",
+      "sourceMap": true,
+      "newLine": "lf",
+      "esModuleInterop": true,
+      "keyofStringsOnly": false,
+      "typeRoots": [],
+      "types": [
+        "node",
+      ],
+      "skipLibCheck": true,
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "baseUrl": "."
+    },
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }

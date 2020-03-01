@@ -1,0 +1,27 @@
+{
+  "name": "ngi18n-localize-collector",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && cp package.json bin/package.json",
+    "release": "npm run build && npm publish bin"
+  },
+  "bin": {
+    "ngi18n-localize-collector": "cli.js"
+  },
+  "author": "Olivier Guimbal",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/compiler": "^9.0.4",
+    "@types/node": "^13.7.7",
+    "@types/yargs": "^15.0.4",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "gitignore-parser": "0.0.2",
+    "xml-js": "^1.6.11",
+    "yargs": "^15.1.0"
+  }
+}
